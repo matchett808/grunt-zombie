@@ -1,7 +1,7 @@
 {
   "name": "grunt-zombie",
   "description": "Run Zombie JS tests from Grunt",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "homepage": "https://github.com/matchett808/grunt-zombie",
   "author": {
     "name": "Iain Matchett",
@@ -35,11 +35,16 @@
 
   },
   "peerDependencies": {
-    "grunt": "~0.4.5",
+    "grunt": "~0.4.5"
+    },
+    "Dependencies":{
     "zombie": "^2.1.1"
-
-  },
+    },
   "keywords": [
     "gruntplugin"
+  ],
+  "files": [
+    "tasks",
+    "LICENSE-MIT"
   ]
 }
