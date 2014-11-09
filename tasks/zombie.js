@@ -33,6 +33,7 @@ module.exports = function(grunt) {
 		if(code == 0)
 		{
 		grunt.log.oklns("Test Completed successfully");
+		done();
 		}
 		child_proc.stdout.pipe(process.stdout);
 		child_proc.stderr.pipe(process.stderr);
