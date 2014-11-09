@@ -9,13 +9,12 @@
 'use strict';
 
 module.exports = function(grunt) {
-var Browser = require("zombie");
-var assert = require("assert");
+
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
-  grunt.registerTask('zombie', 'Run Zombie JS tests from Grunt', function() {
-	var done = this.async();
+  grunt.registerMultiTask('zombie', 'Run Zombie JS tests from Grunt', function() {
+var done = this.async();
 	var target = this.options().targetfiles;
 	var child_proc = grunt.util.spawn({cmd:"node", args: [target]},function(error, result, code){
 		if(error)
@@ -32,5 +31,6 @@ var assert = require("assert");
 	
             child_proc.stdout.pipe(process.stdout);
             child_proc.stderr.pipe(process.stderr);
-  }); //grunt.registerTask
-}; //module.exports
+  });
+
+};
