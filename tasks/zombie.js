@@ -28,18 +28,14 @@ module.exports = function(grunt) {
 	var child_proc = grunt.util.spawn({cmd:"node", args: [target]},function(error, result, code){
 		if(error)
 		{
-		grunt.log.error('Unspecified Error: '+ error);
+		grunt.log.error('Unspecified Error');
 		}
 		if(code == 0)
 		{
 		grunt.log.oklns("Test Completed successfully");
 		done();
 		}
-		child_proc.stdout.pipe(process.stdout);
-		child_proc.stderr.pipe(process.stderr);
 	});
 	
-            child_proc.stdout.pipe(process.stdout);
-            child_proc.stderr.pipe(process.stderr);
   });
 };

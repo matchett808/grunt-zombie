@@ -45,6 +45,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+  - **0.2.1**: Fixed repeated error printing
   - **0.2.0**: Documentation update - fully working version, added roadmap
   - **0.1.5**: (RC 0.2.0) Fully working version
   - **0.1.4**: 
