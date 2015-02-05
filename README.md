@@ -45,6 +45,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+  - **0.2.6**: Added Improved output, errors and prettiness.
   - **0.2.1**: Fixed repeated error printing
   - **0.2.0**: Documentation update - fully working version, added roadmap
   - **0.1.5**: (RC 0.2.0) Fully working version
@@ -58,6 +59,6 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Roadmap for 0.3.0
 
 - add passing a directory or array of files and loop through accordingly
-- add improved ('prettified') output
+- ~~add improved ('prettified') output~~
 - add a 'build test task' that accepts a url (default to localhost/directory) that checks for JS console errors
 - any other suggestions? File an issue...

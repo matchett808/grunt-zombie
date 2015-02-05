@@ -30,11 +30,9 @@ module.exports = function(grunt) {
 
     // Configuration to be run (and then tested).
     zombie: {
-      default_options: {
         options: {
 	'targetfiles': 'test/test.js'
         }
-      },
     },
 
     // Unit tests.
