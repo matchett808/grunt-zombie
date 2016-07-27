@@ -32,14 +32,13 @@
     "grunt-contrib-nodeunit": "^0.3.3",
     "grunt": "~0.4.5",
     "zombie": "^2.1.1"
-
   },
   "peerDependencies": {
-    "grunt": "~0.4.5"
-    },
-    "Dependencies":{
+    "grunt": ">=0.4.0"
+  },
+  "Dependencies": {
     "zombie": "^2.1.1"
-    },
+  },
   "keywords": [
     "gruntplugin"
   ],
