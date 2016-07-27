@@ -45,6 +45,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+  - **0.2.7**: Update peerDependencies to support Grunt 1.0.
   - **0.2.6**: Added Improved output, errors and prettiness.
   - **0.2.1**: Fixed repeated error printing
   - **0.2.0**: Documentation update - fully working version, added roadmap
